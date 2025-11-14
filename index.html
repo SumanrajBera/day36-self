@@ -8,12 +8,87 @@
     <meta name="description" content="This repository for creating a webpage where I combine JS with HTML and CSS">
     <title>FunFur</title>
 
-    <link rel="stylesheet" href="style.css">k
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
+        <nav>
+            <div class="wrapper">
+                <p class="logo">
+                    FunFur
+                </p>
 
+                <div class="linksBtn">
+                    <div class="links">
+                        <p>Home</p>
+                        <p>Category</p>
+                        <p>Review</p>
+                        <p>Services</p>
+                    </div>
+                    <div class="btn">
+                        <button>Get Started</button>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <button>
+                        <i class="ri-menu-fill"></i>
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <section id="sidebar" class="hide"></section>
+        <section id="hero">
+            <p class="subheading">Premium Furniture Collection</p>
+            <h1>Transform Your Space with Elegant Designs</h1>
+            <p class="info">
+                Discover handcrafted furniture made with precision, comfort, and style.
+                Upgrade your home with pieces that last a lifetime.
+            </p>
+            <button>Shop Now</button>
+        </section>
+        <section id="bestsellers">
+            <div class="card">
+                <div class="card-info">
+                    <h2>Modern Lounge Chair</h2>
+                    <p>Sink into pure comfort with our Modern Lounge Chair, thoughtfully designed to support your
+                        posture while
+                        elevating your home’s interior. Upholstered with premium, breathable fabric and reinforced with
+                        a sturdy
+                        handcrafted wooden frame, this chair blends durability with elegance.
+                    </p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="card-img">
+                    <img src="./assets/chairimg.avif" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-info">
+                    <h2>Stylish Side Table</h2>
+                    <p>Enhance your living space with our Stylish Side Table — a perfect balance of simplicity and
+                        sophistication.
+                        Crafted with a smooth wooden finish and supported by a durable, modern structure, this piece
+                        fits seamlessly
+                        beside sofas, beds, or reading corners.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="card-img">
+                    <img src="./assets/teatableimg.avif" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="cta">
+            <h2>Upgrade Your Home with Timeless Furniture Designs</h2>
+            <button>Explore Collection</button>
+        </section>
+        <footer>
+            <p>&copy; Sumanraj Bera</p>
+        </footer>
     </main>
 
     <script src="./script.js"></script>
